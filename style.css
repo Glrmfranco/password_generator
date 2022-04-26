@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 450px;
+    width: 50%;
 }
 
 .container-input {
@@ -38,9 +38,20 @@ body {
     font-size: 30px;
 }
 
+.container-checkbox {
+    width: 50%;
+    padding: 2px;
+}
+
+.checkbox {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
 .tamanho-txt {
     text-align: center;
-    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -53,7 +64,7 @@ body {
 }
 
 .btn {
-    width: 100%;
+    width: 50%;
     height: 45px;
     outline: none;
     border: none;

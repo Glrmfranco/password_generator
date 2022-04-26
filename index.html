@@ -15,6 +15,25 @@
         <main class="container-input">
             <span class="tamanho-txt">Tamanho <span id="valor"></span> caracteres</span>
             <input class="slider" id="slider" type="range" min="6" max="25" />
+            <div class="container-checkbox">
+                <div class="checkbox">
+                    <label for="maiusculas">Apenas letras maiusculas: </label>
+                    <input type="checkbox" name="maiusculas" id="maiusculas" />
+                </div>
+                <div class="checkbox">
+                    <label for="minusculas">Apenas letras minusculas: </label>
+                    <input type="checkbox" name="minusculas" id="minusculas" />
+                </div>
+                <div class="checkbox">
+                    <label for="numeros">Apenas numeros: </label>
+                    <input type="checkbox" name="numeros" id="numeros" />
+                </div>
+                <div class="checkbox">
+                    <label for="especiais">Apenas caracteres especiais: </label>
+                    <input type="checkbox" name="especiais" id="especiais" />
+                </div>
+            </div>
+
             <button id="btn" class="btn"><strong>Gerar senha</strong></button>
         </main>
 
