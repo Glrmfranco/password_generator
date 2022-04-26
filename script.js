@@ -62,6 +62,7 @@ function gerarSenha() {
     if (especiais.checked) {
         senha.push(pegaApenasEspeciais());
     }
+    if (senha.length === 0) return '';
 
     return senha[Math.floor(Math.random() * senha.length)];
 }
