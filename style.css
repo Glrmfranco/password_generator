@@ -59,7 +59,7 @@ body {
 .slider {
     -webkit-appearance: none;
     border-radius: 5px;
-    width: 100%;
+    width: 33%;
     background-color: #252527;
 }
 
