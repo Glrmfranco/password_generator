@@ -123,3 +123,24 @@ body {
 .esconder {
     display: none;
 }
+
+@media screen and (max-width: 960px) {
+    .header-titulo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container-input,
+    .container-senha {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .senha {
+        width: 85%;
+    }
+}
