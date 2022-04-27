@@ -14,12 +14,11 @@
 
 ### Screenshot
 
-![Screenshot 2022-04-26 141504](https://user-images.githubusercontent.com/99771586/165356100-19eb0c9c-2c5b-4a36-a01f-e1f0996c08cd.png)
-
+![Screenshot 2022-04-27 152817](https://user-images.githubusercontent.com/99771586/165594884-627b723a-d6e5-409a-921a-1c877dddf313.png)
 
 ### Links
 
-- Live Site URL: [Link](https://glrmfranco.github.io/calculator/)
+- Live Site URL: [Link](https://glrmfranco.github.io/password_generator/)
 
 ## My process
 
